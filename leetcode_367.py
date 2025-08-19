@@ -1,0 +1,8 @@
+class Solution(object):
+    def isPerfectSquare(self, num):
+        return((num) ** 0.5)%1 == 0
+        """
+        :type num: int
+        :rtype: bool
+        """
+        
